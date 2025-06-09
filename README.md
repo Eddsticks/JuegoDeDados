@@ -1,4 +1,4 @@
-# Tarea "Juego de dados
+# Tarea "Juego de dados"
 
 ## Clases, Atributos y Métodos:
 1. Dado *(Clase)*:
