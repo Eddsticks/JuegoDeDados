@@ -20,7 +20,7 @@
 2. JuegoDeDados y Calculadora *(Agregación)*: "JuegoDeDados" utiliza a "Calculadora", ya que necesita la funcionalidad de "sumar" para el correcto funcionamiento del juego.
 
 ## Diagrama UML y VP:
-    "en progreso..."
+"en progreso..."
 
 ## Codificación de la solución:
-     ingresar a: -> src/main/dados
+ingresar a: -> src/main/dados
