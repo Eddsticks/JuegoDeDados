@@ -1,0 +1,25 @@
+@startuml
+class Dado {
+  - caraSuperior: int
+  + lanzar(): void
+  + getCaraSuperior(): int
+}
+
+class Calculadora {
+  + sumar(num1: int, num2: int): int
+}
+
+class JuegoDeDados {
+  - dado1: Dado
+  - dado2: Dado
+  - calculadora: Calculadora
+  + JuegoDeDados(calculadora: Calculadora)
+  + jugar(): boolean
+  + getSumaCaras(): int
+  + getDado1(): Dado
+  + getDado2(): Dado
+}
+
+JuegoDeDados "1" *-- "2" Dado : tiene
+JuegoDeDados "1" o-- "1" Calculadora : usa
+@enduml
